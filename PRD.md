@@ -339,4 +339,99 @@ Every order moves through a defined set of states. Each transition is logged wit
 | Rider absconds with collected cash | Medium | Critical | Cash bond + mandatory mobile money deposit within 2h + rider ID verification at onboarding |
 | Regulatory challenge on cash handling | Medium | High | Route all funds through licensed mobile money. Obtain legal opinion before launch. |
 | Low seller adoption at launch | Medium | High | Personal onboarding by ops team. Zero fees forever. Show first 10 sellers the unit economics directly. |
-| High Return-to-Origin (RTO) rate | High | High | IVR pre-confirms cash 
+| High Return-to-Origin (RTO) rate | High | High | IVR pre-confirms cash availability. Strike system deters no-shows. 3-minute inspection cap. |
+| Competitor copies the model | High | Medium | Moat = rider network + blacklist data + pickup station relationships. Ship fast, iterate faster. |
+| Power or connectivity outages | High | Medium | Rider app full offline mode required. SMS fallback for all critical notifications. |
+| Fake or fraudulent listings | Medium | High | Phone number required to post. Strike system. Community report button on every listing. |
+| CBL licensing triggered at scale | Low | Critical | Monitor monthly cash flow. Engage CBL proactively when approaching $10K monthly volume. |
+
+---
+
+## 12. Key Performance Indicators (KPIs)
+
+| KPI | Definition | Month 1 | Month 3 | Month 6 |
+|-----|------------|---------|---------|---------|
+| Order Completion Rate | Delivered ÷ Confirmed orders | 70% | 82% | 88% |
+| Return-to-Origin Rate | Cancelled at door ÷ all deliveries | <20% | <12% | <8% |
+| Seller 30-Day Retention | Sellers active after 30 days | 60% | 70% | 80% |
+| Cash Reconciliation Accuracy | Logged vs. settled cash | 95% | 98% | 99.5% |
+| Daily Active Orders | Orders placed per day (all zones) | 5 | 15 | 25+ |
+| WhatsApp Referral Rate | Orders from WA share links | 20% | 35% | 45% |
+| Dispute Resolution Time | Hours from open to closed ticket | 48h | 24h | 12h |
+| Rider On-Time Rate | Deliveries within promised window | 75% | 85% | 92% |
+
+---
+
+## 13. Project Roadmap & Milestones
+
+| Timeline | Milestone | Key Deliverables |
+|----------|-----------|------------------|
+| **Month 0–1** | Foundation | Rider onboarding system, mobile money API integration, IVR setup, 10 founding sellers signed, 2 riders vetted, 3 pickup station partners contracted |
+| **Month 1–2** | Soft Launch | Buyer PWA live, Seller portal live, Rider App (Android) live, first 100 orders completed, ops team handling all disputes manually |
+| **Month 2–3** | Iteration | Open Box checklist enforced in Rider App, strike system live, photo upload on all listings, WhatsApp share link on every listing |
+| **Month 3–4** | Zone 2 | Congo Town zone added, 2 additional riders recruited, IVR fully replacing human confirmation calls, featured listing revenue launched |
+| **Month 4–6** | Stability | 25 orders/day target hit, dispute resolution under 24h, rider retention above 80%, Paynesville zone scoped and planned |
+| **Month 6+** | Scale Decision | Full unit economics review with Supervisor. If confirmed, prepare seed funding pitch for 3-county expansion (Buchanan, Gbarnga). If not, deepen Sinkor density first. |
+
+---
+
+## 14. Open Questions for Supervisor
+
+> The following questions require supervisor input or external research before development begins. Each is assigned to a team role and has a target resolution date.
+
+| # | Question | Owner | Target Date |
+|---|----------|-------|-------------|
+| 1 | Which mobile money provider — Orange Money or Lonestar — offers better API access and settlement terms for a new project? | Programming Lead | Before Month 0 |
+| 2 | Is the $20 rider cash bond legally structured as a deposit under Liberian labour law, and does it require formal documentation? | Supervisor / Legal Research | Before Month 0 |
+| 3 | Does Africa's Talking support IVR in Liberia with local Liberian English voice? If not, what is the fallback? | Programming Lead | Month 0 |
+| 4 | At what transaction volume does the Central Bank of Liberia require formal notification or licensing for a payment facilitation platform? | Supervisor / Research Team | Month 1 |
+| 5 | What is the minimum viable Rider App feature set — and should v1.0 be Android only given device distribution in Monrovia? | Programming Lead | Month 0 |
+| 6 | Should the platform trademark the name 'WeyDey' or wait for the final brand name decision before filing? | Project Lead + Supervisor | Month 0 |
+| 7 | What data protection obligations apply to storing buyer phone numbers and order histories under Liberian law? | Supervisor / Research Team | Month 1 |
+
+---
+
+## 15. Appendix
+
+### 15.1 Competitive Landscape
+
+| Platform | CoD Available | Local Delivery | Trust Layer | Liberia-Specific |
+|----------|---------------|----------------|-------------|------------------|
+| Facebook Marketplace | No | No | None | Partial |
+| WhatsApp Groups | No | No | None | Yes |
+| Jumia Liberia | Yes | Partial | Some | Weak |
+| **WeyDey (this project)** | **Yes** | **Yes** | **Full — IVR + Open Box** | **Yes — built for Liberia** |
+
+### 15.2 Glossary
+
+| Term | Definition |
+|------|------------|
+| **CoD** | Cash on Delivery — buyer pays cash when goods arrive at their door |
+| **IVR** | Interactive Voice Response — automated phone call system (press 1 to confirm) |
+| **Open Box** | WeyDey's policy requiring the buyer to inspect goods before paying |
+| **RTO** | Return to Origin — when a delivery fails and the item returns to the seller |
+| **PWA** | Progressive Web App — a website that works like a mobile app without app store download |
+| **State Machine** | Software system that tracks an order through defined stages (Placed → Confirmed → Delivered etc.) |
+| **CBL** | Central Bank of Liberia — the regulatory authority for financial transactions in Liberia |
+| **Strike System** | WeyDey's graduated consequence system for buyers who place fake or abandoned orders |
+
+---
+
+## Supervisor Approval
+
+> This document requires review and sign-off by the faculty supervisor before the project proceeds to the development phase. Please annotate any sections requiring revision.
+
+| Role | Name & Signature | Date |
+|------|------------------|------|
+| Faculty Supervisor | | |
+| Project Lead | | |
+| Head of Programming | | |
+
+---
+
+**End of Document**  
+*WeyDey PRD v1.0 — Student Project*  
+*Page 1 of 1 — WeyDey CoD Marketplace | Confidential — Student Use Only*
+```
+
+---
