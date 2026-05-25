@@ -1,4 +1,4 @@
-# 🇱🇷 WeyDey — Liberia's Trusted Cash-on-Delivery Marketplace
+# 🇱🇷 WeyDey  Liberia's Trusted Cash-on-Delivery Marketplace
 > *"No wahala. See am. Pay am. Done."*
 
 [![Status](https://img.shields.io/badge/Status-Student%20Capstone%20%7C%20v1.0-blue)]()
