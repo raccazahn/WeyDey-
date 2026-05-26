@@ -422,7 +422,7 @@ Every order moves through a defined set of states. Each transition is logged wit
 > This document requires review and sign-off by the faculty supervisor before the project proceeds to the development phase. Please annotate any sections requiring revision.
 
 | Role | Name & Signature    | Signature    |  Date    |
-|------|------------------|------|
+|------|---------------------|------------------|----------| 
 | Faculty Supervisor | | |
 | Project Lead | | |
 | Head of Programming | | |
