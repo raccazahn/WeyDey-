@@ -1,7 +1,7 @@
 # WeyDey — Product Requirements Document
 
 **Liberia's Trusted Cash-on-Delivery Marketplace**  
-*"No wahala. See am. Pay am. Done."*
+*"No wahala. See am. Pay am. Done✅."*
 
 ---
 
@@ -15,7 +15,6 @@
 | **Date** | May 2026 |
 | **Status** | Draft — Awaiting Supervisor Approval |
 | **Classification** | Student Project — Internal Use Only |
-| **Course / Institution** | [Institution Name] — [Course Code / Name] |
 | **Project Supervisor** | [Professor Name] — Faculty Supervisor |
 | **Team Lead (Programming)** | [Your Name] — Head of Programming |
 | **Contributing Teams** | Programming ● Design ● Business & Research ● Ops |
@@ -108,14 +107,14 @@ This project fulfils the following learning outcomes as agreed with the supervis
 |------|-------------|------------------|
 | **Faculty Supervisor** | [Professor Name] | Project oversight, milestone approval, academic grading, strategic guidance |
 | **Project Lead / Product** | [Student Name] | Overall coordination, PRD ownership, stakeholder communication, timeline management |
-| **Head of Programming ★** | [Your Name] | Technical architecture, sprint planning, code review, API integrations, team lead for all engineering deliverables |
+| **Head of Programming ★** | [Student Name] | Technical architecture, sprint planning, code review, API integrations, team lead for all engineering deliverables |
 | **Frontend Developer(s)** | [Student Name(s)] | Buyer PWA, Seller portal, Rider app UI, Admin dashboard |
 | **Backend Developer(s)** | [Student Name(s)] | Order state machine, API layer, database schema, IVR integration |
 | **UI/UX Designer(s)** | [Student Name(s)] | Wireframes, user flows, design system, prototype testing |
 | **Business & Research** | [Student Name(s)] | Market research, user interviews, unit economics, go-to-market strategy |
 | **Operations Lead** | [Student Name] | Rider onboarding plan, pickup station partnerships, logistics protocol |
 
-★ **You are here** — Head of Programming. Your team owns all deliverables under Sections 8 (Technical Architecture) and 5.2 (Feature Specifications).
+★ Head of Programming. Your team owns all deliverables under Sections 8 (Technical Architecture) and 5.2 (Feature Specifications).
 
 ---
 
@@ -194,7 +193,8 @@ Human phone calls cannot scale past 200 orders/day. The IVR (Interactive Voice R
 #### 6.2.2 — Open Box Inspection Protocol
 
 | Step | Rider Action | System Action |
-|------|--------------|---------------|| 1 | Photograph item before sealing at seller location | Photo timestamped and stored against order ID |
+|------|--------------|---------------|
+| 1 | Photograph item before sealing at seller location | Photo timestamped and stored against order ID |
 | 2 | Arrive at buyer's door, tap 'Arrived' in app | Buyer receives 'Your rider is here' SMS |
 | 3 | Open box with buyer present — 3-minute inspection cap | Countdown timer displayed in Rider App |
 | 4 | Buyer accepts → rider taps 'Collected', enters cash amount | Receipt SMS to buyer; mobile money deposit triggered |
@@ -431,6 +431,5 @@ Every order moves through a defined set of states. Each transition is logged wit
 
 ---
 
-**End of Document**  
-*WeyDey PRD v1.0 — Student Project*  
-*Page 1 of 1 — WeyDey CoD Marketplace | Confidential — Student Use Only*
+#End of Document  
+#WeyDey PRD v1.0 — Liberia Most Trusted Marketplace  
