@@ -434,4 +434,3 @@ Every order moves through a defined set of states. Each transition is logged wit
 **End of Document**  
 *WeyDey PRD v1.0 — Student Project*  
 *Page 1 of 1 — WeyDey CoD Marketplace | Confidential — Student Use Only*
-```
